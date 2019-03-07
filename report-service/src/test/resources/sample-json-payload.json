@@ -1,0 +1,272 @@
+{
+  "modelNo": "RS90A1",
+  "sku" : "24995",
+  "name": "Integrated French Door Fridge, 900mm, 525L",
+  "shortDescription": "Fisher & Paykel integrated fridge freezers are designed to fit flush with kitchen cabinetry for a seamless look in your kitchen.",
+  "longDescription": "<ul><li>ActiveSmart™ helps keep food fresher for longer</li><li>Bottom freezer drawer for easy access to frozen goods</li><li>Customise with your own kitchen cabinetry or purchase our stainless steel door panel accessory</li></ul>",
+  "imageURL": "https://www.fisherpaykel.com/images/kitchen/cool/built-in/mugs/detail/RS90A1-RD90-external-mug-DP.jpg",
+  "productURL": "https://www.fisherpaykel.com/nz/kitchen/fridges-freezers/integrated-refrigeration/activesmart-fridge-900mm-french-door-slide-in-panel-ready.RS90A1.html",
+  "dimensionImageURL": "https://www.fisherpaykel.com/images/kitchen/cool/built-in/dimensions/RS90A1_dimensions.png",
+  "style":"Integrated",
+  "series":"Series 9",
+  "unit":"mm",
+  "variationAttributes": [
+    {
+      "attribute": "finish",
+      "value": "EZKleen Stainless Steel"
+    },
+    {
+      "attribute": "hinge",
+      "value": "French hinge"
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "dimHeight",
+      "name": "Height",
+      "value": "1798"
+    },
+    {
+      "id": "dimWidth",
+      "name": "Width",
+      "value": "896"
+    },
+    {
+      "id": "dimDepth",
+      "name": "Depth",
+      "value": "606"
+    }
+  ],
+  "featuresBenefits": [
+    {
+      "title": "Easy cleaning",
+      "description": "No more permanent dirty marks with our EZKleen&trademark; feature for stainless steel fridges. Anti-fingerprint coating means you simply wipe clean any marks. Spill-safe secure glass shelves easily capture any drips or leaks."
+    },
+    {
+      "title": "Design quality",
+      "description": "Our fridges are designed and built using quality materials. We use <b>real stainless steel</b> on our fridges and solid glass for shelving as well as in our wine cabinet doors."
+    },
+    {
+      "title": "Simple storage",
+      "description": "This fridge is designed to make it simple for you to store, access and remove food. Storage bins give you full access inside when they’re pulled open and can be easily removed to clean. Our flexible shelving also gives you more storage options."
+    },
+    {
+      "title": "Clever energy",
+      "description": "Your fridge adapts to daily use by cooling and defrosting only when needed. This ActiveSmart™ technology means better energy efficiency without compromising on food care."
+    },
+    {
+      "title": "Easy Cleaning",
+      "description": "Removable, spill-safe glass shelves are easy to clean and contain drips and spills. Storage bins and white steel doors just need a wipe to keep spotless."
+    }
+  ],
+  "specifications": [
+    {
+      "GroupID": "Capacity",
+      "GroupDisplayName": "Capacity",
+      "SpecificationEntries": [
+        {
+          "AttrName": "Freezer",
+          "Value": "117 L"
+        },
+		{
+          "AttrName": "Refrigerator",
+          "Value": "400 L"
+        },
+		{
+          "AttrName": "Total gross capacity",
+          "Value": "517 L"
+        }
+      ]
+    },
+    {
+      "GroupID": "Consumption",
+      "GroupDisplayName": "Consumption",
+      "SpecificationEntries": [
+        {
+          "AttrName": "Energy Star Rating",
+          "Value": "3 stars"
+        },
+		{
+          "AttrName": "Energy usage",
+          "Value": "461 kWh/year"
+        }
+      ]
+    },
+    {
+      "GroupID": "Design",
+      "GroupDisplayName": "Design",
+      "SpecificationEntries": [
+        {
+          "AttrName": "Concealed hinges",
+          "Value": true
+        },
+		{
+          "AttrName": "Door opening",
+          "Value": "right hinge"
+        },
+		{
+          "AttrName": "EZKleen stainless steel",
+          "Value": true
+        },
+		{
+          "AttrName": "Flat door design",
+          "Value": true
+        },
+		{
+          "AttrName": "Top mount freezer",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "GroupID": "Freezer",
+      "GroupDisplayName": "Freezer",
+      "SpecificationEntries": [
+        {
+          "AttrName": "Door alarm",
+          "Value": true
+        },
+		{
+          "AttrName": "Door shelves",
+          "Value": "2"
+        },
+		{
+          "AttrName": "Glass shelves",
+          "Value": true
+        },
+		{
+          "AttrName": "Ice tray",
+          "Value": "2"
+        }
+      ]
+    },
+    {
+      "GroupID": "Measurements",
+      "GroupDisplayName": "Measurements",
+      "SpecificationEntries": [
+        {
+          "AttrName": "Depth - door closed not including handle",
+          "Value": "695mm"
+        },
+        {
+          "AttrName": "Height - to top of cabinet",
+          "Value": "1720mm"
+        },
+        {
+          "AttrName": "Minimum air clearance - at rear",
+          "Value": "30mm"
+        },
+        {
+          "AttrName": "Minimum air clearance - each side",
+          "Value": "20mm"
+        },
+        {
+          "AttrName": "Minimum air clearance - on top",
+          "Value": "50mm"
+        }
+      ]
+    },
+    {
+      "GroupID": "Performance",
+      "GroupDisplayName": "Performance",
+      "SpecificationEntries": [
+        {
+          "AttrName": "ActiveSmart™ Foodcare",
+          "Value": true
+        },
+		{
+          "AttrName": "Adaptive defrost",
+          "Value": true
+        },
+		{
+          "AttrName": "Frost free",
+          "Value": true
+        },
+		{
+          "AttrName": "Humidity controlled crisper bin",
+          "Value": true
+        },
+		{
+          "AttrName": "R600a refrigerant",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "GroupID": "Refrigerator",
+      "GroupDisplayName": "Refrigerator",
+      "SpecificationEntries": [
+        {
+          "AttrName": "Adjustable door shelves",
+          "Value": "4"
+        },
+		{
+          "AttrName": "Adjustable glass shelves",
+          "Value": "4"
+        },
+		{
+          "AttrName": "Covered door shelves",
+          "Value": "2"
+        },
+		{
+          "AttrName": "Door Alarm",
+          "Value": true
+        },
+		{
+          "AttrName": "Front levelling feet",
+          "Value": true
+        },
+		{
+          "AttrName": "Fruit and vegetable bins (full width with divider)",
+          "Value": "1"
+        },
+		{
+          "AttrName": "Full extension runners",
+          "Value": true
+        },
+		{
+          "AttrName": "LED lighting ",
+          "Value": true
+        },
+		{
+          "AttrName": "Rear rollers",
+          "Value": true
+        }
+	  ]
+    },
+    {
+      "GroupID": "Warranty",
+      "GroupDisplayName": "Warranty",
+      "SpecificationEntries": [
+        {
+          "AttrName": "Parts & Labour",
+          "Value": "2 years"
+        },
+		{
+          "AttrName": "Sealed system parts",
+          "Value": "additional 3 years"
+        }
+      ]
+    }
+  ],
+  "assets": [
+	{
+		"title": "Data Sheet",
+		"type": "datasheet",
+		"fileType": "pdf",
+		"url": "https://www.fisherpaykel.com/download/data-sheets/Kitchen/Cool/RS90A1_SS_Datasheet_AA.pdf"
+	},
+	{
+		"title": "RS90A1 Data Sheet - Custom Panel",
+		"type": "datasheet",
+		"fileType": "pdf",
+		"url": "https://www.fisherpaykel.com/download/data-sheets/Kitchen/Cool/RS90A1_CUSTOM_Datasheet_AA.pdf"
+	},
+	{
+		"title": "RS90A1 Data Sheet - Stainless Steel",
+		"type": "datasheet",
+		"fileType": "pdf",
+		"url": "https://www.fisherpaykel.com/download/data-sheets/Kitchen/COOL/RS90A1_CUSTOM_Datasheet_AA.pdf"
+	}
+  ]
+}

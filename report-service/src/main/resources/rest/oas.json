@@ -1,0 +1,180 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "",
+        "title": "Experion Rest API",
+        "description": "rest API for calls to Experion"
+    },
+    "host": "api.edq.com",
+    "schemes": [
+        "https"
+    ],
+    "paths": {
+        "/capture/address/v2/format": {
+            "get": {
+                "operationId": "GET_capture-address-v2-format",
+                "summary": "selectAddress",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "address": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "addressLine1": {
+                                                "type": "string"
+                                            },
+                                            "locality": {
+                                                "type": "string"
+                                            },
+                                            "country": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "components": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "streetNumber1": {
+                                                "type": "string"
+                                            },
+                                            "postalCode1": {
+                                                "type": "string"
+                                            },
+                                            "countryISO1": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "examples": {
+                            "application/json": {
+                                "address": [
+                                    {
+                                        "addressLine1": "110 Spring Street"
+                                    },
+                                    {
+                                        "addressLine2": ""
+                                    },
+                                    {
+                                        "addressLine3": ""
+                                    },
+                                    {
+                                        "locality": "BURY"
+                                    },
+                                    {
+                                        "province": ""
+                                    },
+                                    {
+                                        "postalCode": "BL9 0RW"
+                                    },
+                                    {
+                                        "country": "UNITED KINGDOM"
+                                    }
+                                ],
+                                "components": [
+                                    {
+                                        "streetNumber1": "110"
+                                    },
+                                    {
+                                        "street1": "Spring Street"
+                                    },
+                                    {
+                                        "locality1": "BURY"
+                                    },
+                                    {
+                                        "postalCode1": "BL9 0RW"
+                                    },
+                                    {
+                                        "country1": "UNITED KINGDOM"
+                                    },
+                                    {
+                                        "countryISO1": "GBR"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/capture/address/v2/search{auth-token}&{query}&{country}": {
+            "parameters": [
+                {
+                    "name": "auth-token",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                },
+                {
+                    "name": "query",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                },
+                {
+                    "name": "country",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ],
+            "get": {
+                "operationId": "GET_capture-address-v2-searchauth-token&query&country",
+                "summary": "lookupAddress",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/addresssearchresult"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "addresssearchresult": {
+            "title": "AddressSearchResult",
+            "type": "object",
+            "properties": {
+                "count": {
+                    "type": "integer"
+                },
+                "results": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/addressmatch"
+                    }
+                }
+            }
+        },
+        "addressmatch": {
+            "title": "AddressMatch",
+            "type": "object",
+            "properties": {
+                "suggestion": {
+                    "type": "string"
+                },
+                "format": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

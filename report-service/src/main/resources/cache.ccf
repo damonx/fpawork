@@ -1,0 +1,40 @@
+# DEFAULT CACHE REGION
+jcs.default=DC
+jcs.default.cacheattributes=org.apache.commons.jcs.engine.CompositeCacheAttributes
+jcs.default.cacheattributes.MaxObjects=5000
+jcs.default.cacheattributes.MemoryCacheName=org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache
+jcs.default.cacheattributes.UseMemoryShrinker=false
+jcs.default.cacheattributes.MaxMemoryIdleTime=3600
+jcs.default.cacheattributes.ShrinkerInterval=60
+jcs.default.elementattributes=org.apache.commons.jcs.engine.ElementAttributes
+jcs.default.elementattributes.IsEternal=false
+jcs.default.elementattributes.MaxLife=432000
+jcs.default.elementattributes.IdleTime=1800
+jcs.default.elementattributes.IsSpool=true
+jcs.default.elementattributes.IsRemote=true
+jcs.default.elementattributes.IsLateral=true
+ 
+# PRE-DEFINED CACHE REGIONS
+# ADDRESSFINDER CACHE CONF
+jcs.region.addressFinderCache=DC
+jcs.region.addressFinderCache.cacheattributes=org.apache.commons.jcs.engine.CompositeCacheAttributes
+jcs.region.addressFinderCache.cacheattributes.MaxObjects=5000
+jcs.region.addressFinderCache.cacheattributes.MemoryCacheName=org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.addressFinderCache.cacheattributes.UseMemoryShrinker=false
+jcs.region.addressFinderCache.cacheattributes.MaxMemoryIdleTime=3600
+jcs.region.addressFinderCache.cacheattributes.ShrinkerInterval=60
+jcs.region.addressFinderCache.cacheattributes.MaxSpoolPerRun=500
+jcs.region.addressFinderCache.elementattributes=org.apache.commons.jcs.engine.ElementAttributes
+jcs.region.addressFinderCache.elementattributes.IsEternal=false
+
+#QRG REPORT CACHE CONF
+jcs.region.qrgReportCache=DC
+jcs.region.qrgReportCache.cacheattributes=org.apache.commons.jcs.engine.CompositeCacheAttributes
+jcs.region.qrgReportCache.cacheattributes.MaxObjects=5000
+jcs.region.qrgReportCache.cacheattributes.MemoryCacheName=org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.qrgReportCache.cacheattributes.UseMemoryShrinker=false
+jcs.region.qrgReportCache.cacheattributes.MaxMemoryIdleTime=3600
+jcs.region.qrgReportCache.cacheattributes.ShrinkerInterval=60
+jcs.region.qrgReportCache.cacheattributes.MaxSpoolPerRun=500
+jcs.region.qrgReportCache.elementattributes=org.apache.commons.jcs.engine.ElementAttributes
+jcs.region.qrgReportCache.elementattributes.IsEternal=false
