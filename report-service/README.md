@@ -53,6 +53,4 @@ These instructions will get you a copy of the project up and running on your loc
 For the versions available, see the [tags on this repository](https://bitbucket.org/fisherpaykeldigital/fisherpaykel-reports/). 
 
 ## Authors
-
-* [**Ashin Wilson**](https://bitbucket.org/wilsonas/)
 * [**Damon Xu**](https://bitbucket.org/akldamonx/)
